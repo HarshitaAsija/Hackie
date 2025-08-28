@@ -110,7 +110,7 @@
         <li>✔ Industry challenges</li>
         <li>✔ Mentorship available</li>
       </ul>
-      <a href="hackathons.html" target="_blank" class="btn-primary full-btn">Explore Hackathons →</a>
+      <a href="#" class="btn-primary full-btn">Explore Hackathons →</a>
     </div>
 
     <!-- Internships Card -->
@@ -140,7 +140,7 @@
         <li>✔ Workshop materials</li>
         <li>✔ Certificate of attendance</li>
       </ul>
-      <a href="tech-events.html" target="_blank" class="btn-primary full-btn">Explore Tech Events →</a>
+      <a href="tech-events.html" target="_blank" class="btn-primary full-btn">Explore tech-events →</a>
     </div>
   </div>
 </section>
@@ -174,7 +174,7 @@
       <h3 class="footer-logo">Hackie</h3>
       <p>Your ultimate platform for discovering hackathons, internships, and tech events. Built by students, for students.</p>
       <div><p>© 2025 Hackie. All rights reserved.
-        Built with ❤️ for the student community</p></div>
+        </p></div>
     </div>
 
 
@@ -198,7 +198,7 @@
       <label>Password</label>
       <input type="password" placeholder="Enter your password" required>
 
-      <a href="#" class="forgot">Forgot password?</a>
+      <a href="#" class="forgot" onclick="openModal('forgotModal')">Forgot password?</a>
 
       <button type="submit" class="btn-primary">Sign In</button>
     </form>
@@ -225,6 +225,30 @@
       </form>
     </div>
   </div>
+  <!-- Forgot Password Modal -->
+<div id="forgotModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('forgotModal')">&times;</span>
+    <h2>Reset Password</h2>
+    <p>Enter your details to reset your password.</p>
+
+    <form>
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>OTP</label>
+      <input type="text" placeholder="Enter the OTP" required>
+
+      <label>New Password</label>
+      <input type="password" placeholder="Enter new password" required>
+
+      <button type="submit">Reset Password</button>
+    </form>
+
+    <a href="#" class="back-link" onclick="switchToSignIn()">← Back to Sign In</a>
+  </div>
+</div>
+
 
     <script src="script.js"></script>
     </body>
@@ -234,4 +258,9 @@
 
 
 
+
+
+
+
   
+
