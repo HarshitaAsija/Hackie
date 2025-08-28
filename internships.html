@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hackie - Internships</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Hackie- <span>One stop place for big tech dreams</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#how">How it Works</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
+  </header>
+
+  <!-- Internships Section -->
+  <section class="internships">
+    <h2>Internships</h2>
+    <p class="subtitle">
+      Gain real-world experience with top companies and startups across various domains.  
+      Launch your career with hands-on projects and mentorship opportunities.
+    </p>
+
+    <!-- 🔹 Filter/Search Bar -->
+    <div class="filter-bar">
+      <input type="text" placeholder="🔍 Search internships..." class="filter-input">
+
+      <select class="filter-select">
+        <option>Select skill</option>
+        <option>Web Development</option>
+        <option>Data Science</option>
+        <option>UI/UX Design</option>
+        <option>Cybersecurity</option>
+      </select>
+
+      <select class="filter-select">
+        <option>Location</option>
+        <option>Remote</option>
+        <option>Gurgaon</option>
+        <option>Banglore</option>
+        <option>Pune</option>
+      </select>
+
+      <select class="filter-select">
+        <option>Experience</option>
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Advanced</option>
+        <option>Expert</option>
+      </select>
+
+      <select class="filter-select">
+        <option>Type</option>
+        <option>Full-time</option>
+        <option>Part-time</option>
+        <option>Internship</option>
+        <option>Contract</option>
+      </select>
+    </div>
+
+    <!-- Internship Grid -->
+    <div class="internship-grid">
+      <!-- Card Example -->
+      <div class="internship-card">
+        <div class="card-header">
+          <span class="mode">On-site</span>
+          <span class="level">Intermediate</span>
+        </div>
+        <h3>Software Engineering Intern</h3>
+        <p class="company">Google</p>
+        <p class="desc">Work on cutting-edge products used by billions of users worldwide.</p>
+        <ul>
+          <li>💰 $6000/month</li>
+          <li>📅 12 weeks</li>
+          <li>📍 Mountain View, CA</li>
+          <li>🕒 Full-time</li>
+        </ul>
+        <button class="btn-primary full-btn">Apply Now</button>
+      </div>
+
+      <div class="internship-card">
+        <div class="card-header">
+          <span class="mode">Hybrid</span>
+          <span class="level">Advanced</span>
+        </div>
+        <h3>Data Science Intern</h3>
+        <p class="company">Netflix</p>
+        <p class="desc">Analyze user behavior patterns and build recommendation algorithms.</p>
+        <ul>
+          <li>💰 $7500/month</li>
+          <li>📅 16 weeks</li>
+          <li>📍 Los Angeles, CA</li>
+          <li>🕒 Full-time</li>
+        </ul>
+        <button class="btn-primary full-btn">Apply Now</button>
+      </div>
+
+      <!-- Add more cards following same structure -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3 class="footer-logo">Hackie</h3>
+        <p>Your ultimate platform for discovering hackathons, internships, and tech events.</p>
+        <div><p>© 2025 Hackie. All rights reserved. Built with ❤️ for the student community</p></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
